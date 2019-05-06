@@ -89,5 +89,6 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
 
     @Override
     public void surfaceDestroyed(final SurfaceHolder holder) {
+        mTriangleApplication.stop();
     }
 }
